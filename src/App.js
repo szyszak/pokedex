@@ -1,48 +1,62 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useReducer, useEffect } from 'react';
 import data from './data';
 
 import Pokemon from './Pokemon';
 
+// REDUCER
+const initialState = { current: 68 };
+
+const reducer = (state, action) => {
+  switch (action.type) {
+    case 'prev':
+      if (state.current === 0) {
+        return state;
+      }
+      return { current: state.current - 1 };
+
+    case 'next':
+      if (state.current === 150) {
+        return state;
+      }
+      return { current: state.current + 1 };
+
+    case 'set':
+      return { current: action.payload - 1 };
+
+    default:
+      return state;
+  }
+};
+
 function App() {
   // STATE
   const [pokemonData] = useState(data);
-  const [current, setCurrent] = useState(68);
 
-  // const setPokemon = (current, num) => {
-  //   if (current === 1) return 151;
-  //   if (current === 151) return 1;
-
-  //   return current += num;
-  // };
+  // REDUCER
+  const [state, dispatch] = useReducer(reducer, initialState);
 
   // EFFECTS
 
-  // useEffect(() => {
-  //   console.log(pokemonData[current]);
-  // }, [pokemonData, current]);
+  useEffect(() => {
+    // console.log(pokemonData[current]);
+    document.title = `Pokedex - ${pokemonData[state.current].name}`;
+  }, [pokemonData, state.current]);
 
   // RENDER
   return (
     <div className="App">
       <h1>POKEDEX</h1>
-      <p>
-        current pokemon number:
-        {current}
-      </p>
-      <p>
-        current pokemon name:
-        {pokemonData[current].name}
-      </p>
-      <button type="button" onClick={() => setCurrent(current - 1)}>
+      {/* <p>current pokemon number: {state.current}</p> */}
+      <button type="button" onClick={() => dispatch({ type: 'prev' })}>
         PREV
       </button>
-      <button type="button" onClick={() => setCurrent(current + 1)}>
+      <button type="button" onClick={() => dispatch({ type: 'next' })}>
         NEXT
       </button>
       <br />
-      <input type="text" onInput={e => setCurrent(e.target.value)} />
+      <input type="text" onInput={e => dispatch({ type: 'set', payload: e.target.value })} />
       <br />
-      <Pokemon pokemon={pokemonData[current]} />
+      <Pokemon pokemon={pokemonData[state.current]} />
     </div>
   );
 }

@@ -1,7 +1,7 @@
 const data = [
   {
     id: 1,
-    name: 'bulbasaur',
+    name: 'Bulbasaur',
     types: ['grass', 'poison'],
     height: 7,
     weight: 69,
@@ -10,7 +10,7 @@ const data = [
   },
   {
     id: 2,
-    name: 'ivysaur',
+    name: 'Ivysaur',
     types: ['grass', 'poison'],
     height: 10,
     weight: 130,
@@ -19,7 +19,7 @@ const data = [
   },
   {
     id: 3,
-    name: 'venusaur',
+    name: 'Venusaur',
     types: ['grass', 'poison'],
     height: 20,
     weight: 1000,
@@ -28,7 +28,7 @@ const data = [
   },
   {
     id: 4,
-    name: 'charmander',
+    name: 'Charmander',
     types: ['fire'],
     height: 6,
     weight: 85,
@@ -37,7 +37,7 @@ const data = [
   },
   {
     id: 5,
-    name: 'charmeleon',
+    name: 'Charmeleon',
     types: ['fire'],
     height: 11,
     weight: 190,
@@ -46,7 +46,7 @@ const data = [
   },
   {
     id: 6,
-    name: 'charizard',
+    name: 'Charizard',
     types: ['fire', 'flying'],
     height: 16,
     weight: 905,
@@ -55,7 +55,7 @@ const data = [
   },
   {
     id: 7,
-    name: 'squirtle',
+    name: 'Squirtle',
     types: ['water'],
     height: 5,
     weight: 90,
@@ -64,7 +64,7 @@ const data = [
   },
   {
     id: 8,
-    name: 'wartortle',
+    name: 'Wartortle',
     types: ['water'],
     height: 10,
     weight: 225,
@@ -73,7 +73,7 @@ const data = [
   },
   {
     id: 9,
-    name: 'blastoise',
+    name: 'Blastoise',
     types: ['water'],
     height: 16,
     weight: 855,
@@ -82,7 +82,7 @@ const data = [
   },
   {
     id: 10,
-    name: 'caterpie',
+    name: 'Caterpie',
     types: ['bug'],
     height: 3,
     weight: 29,
@@ -91,7 +91,7 @@ const data = [
   },
   {
     id: 11,
-    name: 'metapod',
+    name: 'Metapod',
     types: ['bug'],
     height: 7,
     weight: 99,
@@ -100,7 +100,7 @@ const data = [
   },
   {
     id: 12,
-    name: 'butterfree',
+    name: 'Butterfree',
     types: ['bug', 'flying'],
     height: 11,
     weight: 320,
@@ -109,7 +109,7 @@ const data = [
   },
   {
     id: 13,
-    name: 'weedle',
+    name: 'Weedle',
     types: ['poison', 'bug'],
     height: 3,
     weight: 32,
@@ -118,7 +118,7 @@ const data = [
   },
   {
     id: 14,
-    name: 'kakuna',
+    name: 'Kakuna',
     types: ['poison', 'bug'],
     height: 6,
     weight: 100,
@@ -127,7 +127,7 @@ const data = [
   },
   {
     id: 15,
-    name: 'beedrill',
+    name: 'Beedrill',
     types: ['poison', 'bug'],
     height: 10,
     weight: 295,
@@ -136,7 +136,7 @@ const data = [
   },
   {
     id: 16,
-    name: 'pidgey',
+    name: 'Pidgey',
     types: ['flying', 'normal'],
     height: 3,
     weight: 18,
@@ -145,7 +145,7 @@ const data = [
   },
   {
     id: 17,
-    name: 'pidgeotto',
+    name: 'Pidgeotto',
     types: ['flying', 'normal'],
     height: 11,
     weight: 300,
@@ -154,7 +154,7 @@ const data = [
   },
   {
     id: 18,
-    name: 'pidgeot',
+    name: 'Pidgeot',
     types: ['flying', 'normal'],
     height: 15,
     weight: 395,
@@ -163,7 +163,7 @@ const data = [
   },
   {
     id: 19,
-    name: 'rattata',
+    name: 'Rattata',
     types: ['normal'],
     height: 3,
     weight: 35,
@@ -172,7 +172,7 @@ const data = [
   },
   {
     id: 20,
-    name: 'raticate',
+    name: 'Raticate',
     types: ['normal'],
     height: 7,
     weight: 185,
@@ -181,7 +181,7 @@ const data = [
   },
   {
     id: 21,
-    name: 'spearow',
+    name: 'Spearow',
     types: ['flying', 'normal'],
     height: 3,
     weight: 20,
@@ -190,7 +190,7 @@ const data = [
   },
   {
     id: 22,
-    name: 'fearow',
+    name: 'Fearow',
     types: ['flying', 'normal'],
     height: 12,
     weight: 380,
@@ -199,7 +199,7 @@ const data = [
   },
   {
     id: 23,
-    name: 'ekans',
+    name: 'Ekans',
     types: ['poison'],
     height: 20,
     weight: 69,
@@ -208,7 +208,7 @@ const data = [
   },
   {
     id: 24,
-    name: 'arbok',
+    name: 'Arbok',
     types: ['poison'],
     height: 35,
     weight: 650,
@@ -217,7 +217,7 @@ const data = [
   },
   {
     id: 25,
-    name: 'pikachu',
+    name: 'Pikachu',
     types: ['electric'],
     height: 4,
     weight: 60,
@@ -226,7 +226,7 @@ const data = [
   },
   {
     id: 26,
-    name: 'raichu',
+    name: 'Raichu',
     types: ['electric'],
     height: 8,
     weight: 300,
@@ -235,7 +235,7 @@ const data = [
   },
   {
     id: 27,
-    name: 'sandshrew',
+    name: 'Sandshrew',
     types: ['ground'],
     height: 6,
     weight: 120,
@@ -244,7 +244,7 @@ const data = [
   },
   {
     id: 28,
-    name: 'sandslash',
+    name: 'Sandslash',
     types: ['ground'],
     height: 10,
     weight: 295,
@@ -253,7 +253,7 @@ const data = [
   },
   {
     id: 29,
-    name: 'nidoran',
+    name: 'Nidoran',
     types: ['poison'],
     height: 4,
     weight: 70,
@@ -262,7 +262,7 @@ const data = [
   },
   {
     id: 30,
-    name: 'nidorina',
+    name: 'Nidorina',
     types: ['poison'],
     height: 8,
     weight: 200,
@@ -271,7 +271,7 @@ const data = [
   },
   {
     id: 31,
-    name: 'nidoqueen',
+    name: 'Nidoqueen',
     types: ['poison', 'ground'],
     height: 13,
     weight: 600,
@@ -280,7 +280,7 @@ const data = [
   },
   {
     id: 32,
-    name: 'nidoran',
+    name: 'Nidoran',
     types: ['poison'],
     height: 5,
     weight: 90,
@@ -289,7 +289,7 @@ const data = [
   },
   {
     id: 33,
-    name: 'nidorino',
+    name: 'Nidorino',
     types: ['poison'],
     height: 9,
     weight: 195,
@@ -298,7 +298,7 @@ const data = [
   },
   {
     id: 34,
-    name: 'nidoking',
+    name: 'Nidoking',
     types: ['poison', 'ground'],
     height: 14,
     weight: 620,
@@ -307,7 +307,7 @@ const data = [
   },
   {
     id: 35,
-    name: 'clefairy',
+    name: 'Clefairy',
     types: ['fairy'],
     height: 6,
     weight: 75,
@@ -316,7 +316,7 @@ const data = [
   },
   {
     id: 36,
-    name: 'clefable',
+    name: 'Clefable',
     types: ['fairy'],
     height: 13,
     weight: 400,
@@ -325,7 +325,7 @@ const data = [
   },
   {
     id: 37,
-    name: 'vulpix',
+    name: 'Vulpix',
     types: ['fire'],
     height: 6,
     weight: 99,
@@ -334,7 +334,7 @@ const data = [
   },
   {
     id: 38,
-    name: 'ninetales',
+    name: 'Ninetales',
     types: ['fire'],
     height: 11,
     weight: 199,
@@ -343,7 +343,7 @@ const data = [
   },
   {
     id: 39,
-    name: 'jigglypuff',
+    name: 'Jigglypuff',
     types: ['fairy', 'normal'],
     height: 5,
     weight: 55,
@@ -352,7 +352,7 @@ const data = [
   },
   {
     id: 40,
-    name: 'wigglytuff',
+    name: 'Wigglytuff',
     types: ['fairy', 'normal'],
     height: 10,
     weight: 120,
@@ -361,7 +361,7 @@ const data = [
   },
   {
     id: 41,
-    name: 'zubat',
+    name: 'Zubat',
     types: ['flying', 'poison'],
     height: 8,
     weight: 75,
@@ -370,7 +370,7 @@ const data = [
   },
   {
     id: 42,
-    name: 'golbat',
+    name: 'Golbat',
     types: ['flying', 'poison'],
     height: 16,
     weight: 550,
@@ -379,7 +379,7 @@ const data = [
   },
   {
     id: 43,
-    name: 'oddish',
+    name: 'Oddish',
     types: ['poison', 'grass'],
     height: 5,
     weight: 54,
@@ -388,7 +388,7 @@ const data = [
   },
   {
     id: 44,
-    name: 'gloom',
+    name: 'Gloom',
     types: ['poison', 'grass'],
     height: 8,
     weight: 86,
@@ -397,7 +397,7 @@ const data = [
   },
   {
     id: 45,
-    name: 'vileplume',
+    name: 'Vileplume',
     types: ['poison', 'grass'],
     height: 12,
     weight: 186,
@@ -406,7 +406,7 @@ const data = [
   },
   {
     id: 46,
-    name: 'paras',
+    name: 'Paras',
     types: ['grass', 'bug'],
     height: 3,
     weight: 54,
@@ -414,7 +414,7 @@ const data = [
   },
   {
     id: 47,
-    name: 'parasect',
+    name: 'Parasect',
     types: ['grass', 'bug'],
     height: 10,
     weight: 295,
@@ -423,7 +423,7 @@ const data = [
   },
   {
     id: 48,
-    name: 'venonat',
+    name: 'Venonat',
     types: ['poison', 'bug'],
     height: 10,
     weight: 300,
@@ -432,7 +432,7 @@ const data = [
   },
   {
     id: 49,
-    name: 'venomoth',
+    name: 'Venomoth',
     types: ['poison', 'bug'],
     height: 15,
     weight: 125,
@@ -441,7 +441,7 @@ const data = [
   },
   {
     id: 50,
-    name: 'diglett',
+    name: 'Diglett',
     types: ['ground'],
     height: 2,
     weight: 8,
@@ -450,7 +450,7 @@ const data = [
   },
   {
     id: 51,
-    name: 'dugtrio',
+    name: 'Dugtrio',
     types: ['ground'],
     height: 7,
     weight: 333,
@@ -459,7 +459,7 @@ const data = [
   },
   {
     id: 52,
-    name: 'meowth',
+    name: 'Meowth',
     types: ['normal'],
     height: 4,
     weight: 42,
@@ -468,7 +468,7 @@ const data = [
   },
   {
     id: 53,
-    name: 'persian',
+    name: 'Persian',
     types: ['normal'],
     height: 10,
     weight: 320,
@@ -477,7 +477,7 @@ const data = [
   },
   {
     id: 54,
-    name: 'psyduck',
+    name: 'Psyduck',
     types: ['water'],
     height: 8,
     weight: 196,
@@ -486,7 +486,7 @@ const data = [
   },
   {
     id: 55,
-    name: 'golduck',
+    name: 'Golduck',
     types: ['water'],
     height: 17,
     weight: 766,
@@ -495,7 +495,7 @@ const data = [
   },
   {
     id: 56,
-    name: 'mankey',
+    name: 'Mankey',
     types: ['fighting'],
     height: 5,
     weight: 280,
@@ -504,7 +504,7 @@ const data = [
   },
   {
     id: 57,
-    name: 'primeape',
+    name: 'Primeape',
     types: ['fighting'],
     height: 10,
     weight: 320,
@@ -513,7 +513,7 @@ const data = [
   },
   {
     id: 58,
-    name: 'growlithe',
+    name: 'Growlithe',
     types: ['fire'],
     height: 7,
     weight: 190,
@@ -522,7 +522,7 @@ const data = [
   },
   {
     id: 59,
-    name: 'arcanine',
+    name: 'Arcanine',
     types: ['fire'],
     height: 19,
     weight: 1550,
@@ -531,7 +531,7 @@ const data = [
   },
   {
     id: 60,
-    name: 'poliwag',
+    name: 'Poliwag',
     types: ['water'],
     height: 6,
     weight: 124,
@@ -540,7 +540,7 @@ const data = [
   },
   {
     id: 61,
-    name: 'poliwhirl',
+    name: 'Poliwhirl',
     types: ['water'],
     height: 10,
     weight: 200,
@@ -549,7 +549,7 @@ const data = [
   },
   {
     id: 62,
-    name: 'poliwrath',
+    name: 'Poliwrath',
     types: ['fighting', 'water'],
     height: 13,
     weight: 540,
@@ -558,7 +558,7 @@ const data = [
   },
   {
     id: 63,
-    name: 'abra',
+    name: 'Abra',
     types: ['psychic'],
     height: 9,
     weight: 195,
@@ -567,7 +567,7 @@ const data = [
   },
   {
     id: 64,
-    name: 'kadabra',
+    name: 'Kadabra',
     types: ['psychic'],
     height: 13,
     weight: 565,
@@ -576,7 +576,7 @@ const data = [
   },
   {
     id: 65,
-    name: 'alakazam',
+    name: 'Alakazam',
     types: ['psychic'],
     height: 15,
     weight: 480,
@@ -585,7 +585,7 @@ const data = [
   },
   {
     id: 66,
-    name: 'machop',
+    name: 'Machop',
     types: ['fighting'],
     height: 8,
     weight: 195,
@@ -594,7 +594,7 @@ const data = [
   },
   {
     id: 67,
-    name: 'machoke',
+    name: 'Machoke',
     types: ['fighting'],
     height: 15,
     weight: 705,
@@ -603,7 +603,7 @@ const data = [
   },
   {
     id: 68,
-    name: 'machamp',
+    name: 'Machamp',
     types: ['fighting'],
     height: 16,
     weight: 1300,
@@ -612,7 +612,7 @@ const data = [
   },
   {
     id: 69,
-    name: 'bellsprout',
+    name: 'Bellsprout',
     types: ['poison', 'grass'],
     height: 7,
     weight: 40,
@@ -621,7 +621,7 @@ const data = [
   },
   {
     id: 70,
-    name: 'weepinbell',
+    name: 'Weepinbell',
     types: ['poison', 'grass'],
     height: 10,
     weight: 64,
@@ -630,7 +630,7 @@ const data = [
   },
   {
     id: 71,
-    name: 'victreebel',
+    name: 'Victreebel',
     types: ['poison', 'grass'],
     height: 17,
     weight: 155,
@@ -639,7 +639,7 @@ const data = [
   },
   {
     id: 72,
-    name: 'tentacool',
+    name: 'Tentacool',
     types: ['poison', 'water'],
     height: 9,
     weight: 455,
@@ -648,7 +648,7 @@ const data = [
   },
   {
     id: 73,
-    name: 'tentacruel',
+    name: 'Tentacruel',
     types: ['poison', 'water'],
     height: 16,
     weight: 550,
@@ -657,7 +657,7 @@ const data = [
   },
   {
     id: 74,
-    name: 'geodude',
+    name: 'Geodude',
     types: ['ground', 'rock'],
     height: 4,
     weight: 200,
@@ -666,7 +666,7 @@ const data = [
   },
   {
     id: 75,
-    name: 'graveler',
+    name: 'Graveler',
     types: ['ground', 'rock'],
     height: 10,
     weight: 1050,
@@ -675,7 +675,7 @@ const data = [
   },
   {
     id: 76,
-    name: 'golem',
+    name: 'Golem',
     types: ['ground', 'rock'],
     height: 14,
     weight: 3000,
@@ -684,7 +684,7 @@ const data = [
   },
   {
     id: 77,
-    name: 'ponyta',
+    name: 'Ponyta',
     types: ['fire'],
     height: 10,
     weight: 300,
@@ -693,7 +693,7 @@ const data = [
   },
   {
     id: 78,
-    name: 'rapidash',
+    name: 'Rapidash',
     types: ['fire'],
     height: 17,
     weight: 950,
@@ -702,7 +702,7 @@ const data = [
   },
   {
     id: 79,
-    name: 'slowpoke',
+    name: 'Slowpoke',
     types: ['psychic', 'water'],
     height: 12,
     weight: 360,
@@ -711,7 +711,7 @@ const data = [
   },
   {
     id: 80,
-    name: 'slowbro',
+    name: 'Slowbro',
     types: ['psychic', 'water'],
     height: 16,
     weight: 785,
@@ -720,7 +720,7 @@ const data = [
   },
   {
     id: 81,
-    name: 'magnemite',
+    name: 'Magnemite',
     types: ['steel', 'electric'],
     height: 3,
     weight: 60,
@@ -729,7 +729,7 @@ const data = [
   },
   {
     id: 82,
-    name: 'magneton',
+    name: 'Magneton',
     types: ['steel', 'electric'],
     height: 10,
     weight: 600,
@@ -738,7 +738,7 @@ const data = [
   },
   {
     id: 83,
-    name: 'farfetchd',
+    name: 'Farfetchd',
     types: ['flying', 'normal'],
     height: 8,
     weight: 150,
@@ -747,7 +747,7 @@ const data = [
   },
   {
     id: 84,
-    name: 'doduo',
+    name: 'Doduo',
     types: ['flying', 'normal'],
     height: 14,
     weight: 392,
@@ -756,7 +756,7 @@ const data = [
   },
   {
     id: 85,
-    name: 'dodrio',
+    name: 'Dodrio',
     types: ['flying', 'normal'],
     height: 18,
     weight: 852,
@@ -765,7 +765,7 @@ const data = [
   },
   {
     id: 86,
-    name: 'seel',
+    name: 'Seel',
     types: ['water'],
     height: 11,
     weight: 900,
@@ -774,7 +774,7 @@ const data = [
   },
   {
     id: 87,
-    name: 'dewgong',
+    name: 'Dewgong',
     types: ['ice', 'water'],
     height: 17,
     weight: 1200,
@@ -783,7 +783,7 @@ const data = [
   },
   {
     id: 88,
-    name: 'grimer',
+    name: 'Grimer',
     types: ['poison'],
     height: 9,
     weight: 300,
@@ -792,7 +792,7 @@ const data = [
   },
   {
     id: 89,
-    name: 'muk',
+    name: 'Muk',
     types: ['poison'],
     height: 12,
     weight: 300,
@@ -801,7 +801,7 @@ const data = [
   },
   {
     id: 90,
-    name: 'shellder',
+    name: 'Shellder',
     types: ['water'],
     height: 3,
     weight: 40,
@@ -810,7 +810,7 @@ const data = [
   },
   {
     id: 91,
-    name: 'cloyster',
+    name: 'Cloyster',
     types: ['ice', 'water'],
     height: 15,
     weight: 1325,
@@ -819,7 +819,7 @@ const data = [
   },
   {
     id: 92,
-    name: 'gastly',
+    name: 'Gastly',
     types: ['poison', 'ghost'],
     height: 13,
     weight: 1,
@@ -828,7 +828,7 @@ const data = [
   },
   {
     id: 93,
-    name: 'haunter',
+    name: 'Haunter',
     types: ['poison', 'ghost'],
     height: 16,
     weight: 1,
@@ -837,7 +837,7 @@ const data = [
   },
   {
     id: 94,
-    name: 'gengar',
+    name: 'Gengar',
     types: ['poison', 'ghost'],
     height: 15,
     weight: 405,
@@ -846,7 +846,7 @@ const data = [
   },
   {
     id: 95,
-    name: 'onix',
+    name: 'Onix',
     types: ['ground', 'rock'],
     height: 88,
     weight: 2100,
@@ -855,7 +855,7 @@ const data = [
   },
   {
     id: 96,
-    name: 'drowzee',
+    name: 'Drowzee',
     types: ['psychic'],
     height: 10,
     weight: 324,
@@ -864,7 +864,7 @@ const data = [
   },
   {
     id: 97,
-    name: 'hypno',
+    name: 'Hypno',
     types: ['psychic'],
     height: 16,
     weight: 756,
@@ -873,7 +873,7 @@ const data = [
   },
   {
     id: 98,
-    name: 'krabby',
+    name: 'Krabby',
     types: ['water'],
     height: 4,
     weight: 65,
@@ -882,7 +882,7 @@ const data = [
   },
   {
     id: 99,
-    name: 'kingler',
+    name: 'Kingler',
     types: ['water'],
     height: 13,
     weight: 600,
@@ -891,7 +891,7 @@ const data = [
   },
   {
     id: 100,
-    name: 'voltorb',
+    name: 'Voltorb',
     types: ['electric'],
     height: 5,
     weight: 104,
@@ -900,7 +900,7 @@ const data = [
   },
   {
     id: 101,
-    name: 'electrode',
+    name: 'Electrode',
     types: ['electric'],
     height: 12,
     weight: 666,
@@ -909,7 +909,7 @@ const data = [
   },
   {
     id: 102,
-    name: 'exeggcute',
+    name: 'Exeggcute',
     types: ['psychic', 'grass'],
     height: 4,
     weight: 25,
@@ -918,7 +918,7 @@ const data = [
   },
   {
     id: 103,
-    name: 'exeggutor',
+    name: 'Exeggutor',
     types: ['psychic', 'grass'],
     height: 20,
     weight: 1200,
@@ -927,7 +927,7 @@ const data = [
   },
   {
     id: 104,
-    name: 'cubone',
+    name: 'Cubone',
     types: ['ground'],
     height: 4,
     weight: 65,
@@ -936,7 +936,7 @@ const data = [
   },
   {
     id: 105,
-    name: 'marowak',
+    name: 'Marowak',
     types: ['ground'],
     height: 10,
     weight: 450,
@@ -945,7 +945,7 @@ const data = [
   },
   {
     id: 106,
-    name: 'hitmonlee',
+    name: 'Hitmonlee',
     types: ['fighting'],
     height: 15,
     weight: 498,
@@ -954,7 +954,7 @@ const data = [
   },
   {
     id: 107,
-    name: 'hitmonchan',
+    name: 'Hitmonchan',
     types: ['fighting'],
     height: 14,
     weight: 502,
@@ -963,7 +963,7 @@ const data = [
   },
   {
     id: 108,
-    name: 'lickitung',
+    name: 'Lickitung',
     types: ['normal'],
     height: 12,
     weight: 655,
@@ -972,7 +972,7 @@ const data = [
   },
   {
     id: 109,
-    name: 'koffing',
+    name: 'Koffing',
     types: ['poison'],
     height: 6,
     weight: 10,
@@ -981,7 +981,7 @@ const data = [
   },
   {
     id: 110,
-    name: 'weezing',
+    name: 'Weezing',
     types: ['poison'],
     height: 12,
     weight: 95,
@@ -990,7 +990,7 @@ const data = [
   },
   {
     id: 111,
-    name: 'rhyhorn',
+    name: 'Rhyhorn',
     types: ['rock', 'ground'],
     height: 10,
     weight: 1150,
@@ -999,7 +999,7 @@ const data = [
   },
   {
     id: 112,
-    name: 'rhydon',
+    name: 'Rhydon',
     types: ['rock', 'ground'],
     height: 19,
     weight: 1200,
@@ -1008,7 +1008,7 @@ const data = [
   },
   {
     id: 113,
-    name: 'chansey',
+    name: 'Chansey',
     types: ['normal'],
     height: 11,
     weight: 346,
@@ -1017,7 +1017,7 @@ const data = [
   },
   {
     id: 114,
-    name: 'tangela',
+    name: 'Tangela',
     types: ['grass'],
     height: 10,
     weight: 350,
@@ -1026,7 +1026,7 @@ const data = [
   },
   {
     id: 115,
-    name: 'kangaskhan',
+    name: 'Kangaskhan',
     types: ['normal'],
     height: 22,
     weight: 800,
@@ -1035,7 +1035,7 @@ const data = [
   },
   {
     id: 116,
-    name: 'horsea',
+    name: 'Horsea',
     types: ['water'],
     height: 4,
     weight: 80,
@@ -1044,7 +1044,7 @@ const data = [
   },
   {
     id: 117,
-    name: 'seadra',
+    name: 'Seadra',
     types: ['water'],
     height: 12,
     weight: 250,
@@ -1053,7 +1053,7 @@ const data = [
   },
   {
     id: 118,
-    name: 'goldeen',
+    name: 'Goldeen',
     types: ['water'],
     height: 6,
     weight: 150,
@@ -1062,7 +1062,7 @@ const data = [
   },
   {
     id: 119,
-    name: 'seaking',
+    name: 'Seaking',
     types: ['water'],
     height: 13,
     weight: 390,
@@ -1071,7 +1071,7 @@ const data = [
   },
   {
     id: 120,
-    name: 'staryu',
+    name: 'Staryu',
     types: ['water'],
     height: 8,
     weight: 345,
@@ -1080,7 +1080,7 @@ const data = [
   },
   {
     id: 121,
-    name: 'starmie',
+    name: 'Starmie',
     types: ['psychic', 'water'],
     height: 11,
     weight: 800,
@@ -1089,7 +1089,7 @@ const data = [
   },
   {
     id: 122,
-    name: 'mr-mime',
+    name: 'Mr-mime',
     types: ['fairy', 'psychic'],
     height: 13,
     weight: 545,
@@ -1098,7 +1098,7 @@ const data = [
   },
   {
     id: 123,
-    name: 'scyther',
+    name: 'Scyther',
     types: ['flying', 'bug'],
     height: 15,
     weight: 560,
@@ -1107,7 +1107,7 @@ const data = [
   },
   {
     id: 124,
-    name: 'jynx',
+    name: 'Jynx',
     types: ['psychic', 'ice'],
     height: 14,
     weight: 406,
@@ -1116,7 +1116,7 @@ const data = [
   },
   {
     id: 125,
-    name: 'electabuzz',
+    name: 'Electabuzz',
     types: ['electric'],
     height: 11,
     weight: 300,
@@ -1125,7 +1125,7 @@ const data = [
   },
   {
     id: 126,
-    name: 'magmar',
+    name: 'Magmar',
     types: ['fire'],
     height: 13,
     weight: 445,
@@ -1134,7 +1134,7 @@ const data = [
   },
   {
     id: 127,
-    name: 'pinsir',
+    name: 'Pinsir',
     types: ['bug'],
     height: 15,
     weight: 550,
@@ -1143,7 +1143,7 @@ const data = [
   },
   {
     id: 128,
-    name: 'tauros',
+    name: 'Tauros',
     types: ['normal'],
     height: 14,
     weight: 884,
@@ -1152,7 +1152,7 @@ const data = [
   },
   {
     id: 129,
-    name: 'magikarp',
+    name: 'Magikarp',
     types: ['water'],
     height: 9,
     weight: 100,
@@ -1161,7 +1161,7 @@ const data = [
   },
   {
     id: 130,
-    name: 'gyarados',
+    name: 'Gyarados',
     types: ['flying', 'water'],
     height: 65,
     weight: 2350,
@@ -1170,7 +1170,7 @@ const data = [
   },
   {
     id: 131,
-    name: 'lapras',
+    name: 'Lapras',
     types: ['ice', 'water'],
     height: 25,
     weight: 2200,
@@ -1179,7 +1179,7 @@ const data = [
   },
   {
     id: 132,
-    name: 'ditto',
+    name: 'Ditto',
     types: ['normal'],
     height: 3,
     weight: 40,
@@ -1188,7 +1188,7 @@ const data = [
   },
   {
     id: 133,
-    name: 'eevee',
+    name: 'Eevee',
     types: ['normal'],
     height: 3,
     weight: 65,
@@ -1197,7 +1197,7 @@ const data = [
   },
   {
     id: 134,
-    name: 'vaporeon',
+    name: 'Vaporeon',
     types: ['water'],
     height: 10,
     weight: 290,
@@ -1206,7 +1206,7 @@ const data = [
   },
   {
     id: 135,
-    name: 'jolteon',
+    name: 'Jolteon',
     types: ['electric'],
     height: 8,
     weight: 245,
@@ -1215,7 +1215,7 @@ const data = [
   },
   {
     id: 136,
-    name: 'flareon',
+    name: 'Flareon',
     types: ['fire'],
     height: 9,
     weight: 250,
@@ -1224,7 +1224,7 @@ const data = [
   },
   {
     id: 137,
-    name: 'porygon',
+    name: 'Porygon',
     types: ['normal'],
     height: 8,
     weight: 365,
@@ -1233,7 +1233,7 @@ const data = [
   },
   {
     id: 138,
-    name: 'omanyte',
+    name: 'Omanyte',
     types: ['water', 'rock'],
     height: 4,
     weight: 75,
@@ -1242,7 +1242,7 @@ const data = [
   },
   {
     id: 139,
-    name: 'omastar',
+    name: 'Omastar',
     types: ['water', 'rock'],
     height: 10,
     weight: 350,
@@ -1251,7 +1251,7 @@ const data = [
   },
   {
     id: 140,
-    name: 'kabuto',
+    name: 'Kabuto',
     types: ['water', 'rock'],
     height: 5,
     weight: 115,
@@ -1260,7 +1260,7 @@ const data = [
   },
   {
     id: 141,
-    name: 'kabutops',
+    name: 'Kabutops',
     types: ['water', 'rock'],
     height: 13,
     weight: 405,
@@ -1269,7 +1269,7 @@ const data = [
   },
   {
     id: 142,
-    name: 'aerodactyl',
+    name: 'Aerodactyl',
     types: ['flying', 'rock'],
     height: 18,
     weight: 590,
@@ -1278,7 +1278,7 @@ const data = [
   },
   {
     id: 143,
-    name: 'snorlax',
+    name: 'Snorlax',
     types: ['normal'],
     height: 21,
     weight: 4600,
@@ -1287,7 +1287,7 @@ const data = [
   },
   {
     id: 144,
-    name: 'articuno',
+    name: 'Articuno',
     types: ['flying', 'ice'],
     height: 16,
     weight: 554,
@@ -1296,7 +1296,7 @@ const data = [
   },
   {
     id: 145,
-    name: 'zapdos',
+    name: 'Zapdos',
     types: ['flying', 'electric'],
     height: 0,
     weight: 0,
@@ -1305,7 +1305,7 @@ const data = [
   },
   {
     id: 146,
-    name: 'moltres',
+    name: 'Moltres',
     types: ['flying', 'fire'],
     height: 20,
     weight: 600,
@@ -1314,7 +1314,7 @@ const data = [
   },
   {
     id: 147,
-    name: 'dratini',
+    name: 'Dratini',
     types: ['dragon'],
     height: 18,
     weight: 33,
@@ -1323,7 +1323,7 @@ const data = [
   },
   {
     id: 148,
-    name: 'dragonair',
+    name: 'Dragonair',
     types: ['dragon'],
     height: 40,
     weight: 165,
@@ -1332,7 +1332,7 @@ const data = [
   },
   {
     id: 149,
-    name: 'dragonite',
+    name: 'Dragonite',
     types: ['flying', 'dragon'],
     height: 22,
     weight: 2100,
@@ -1341,7 +1341,7 @@ const data = [
   },
   {
     id: 150,
-    name: 'mewtwo',
+    name: 'Mewtwo',
     types: ['psychic'],
     height: 20,
     weight: 1220,
@@ -1350,7 +1350,7 @@ const data = [
   },
   {
     id: 151,
-    name: 'mew',
+    name: 'Mew',
     types: ['psychic'],
     height: 4,
     weight: 40,
