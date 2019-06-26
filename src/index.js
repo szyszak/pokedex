@@ -23,8 +23,8 @@ const GlobalStyles = createGlobalStyle`
   }
 
   body {
-    background-color: #333;
-    color: #ddd;
+    background-color: #f5f5f5;
+    color: #ffffff;
     font-family: 'Open Sans', sans-serif;
   }
 

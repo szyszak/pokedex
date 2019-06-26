@@ -1,7 +1,34 @@
 import React, { useState, useReducer, useEffect } from 'react';
+import styled from 'styled-components';
 import data from './data';
 
-import Pokemon from './Pokemon';
+import PokemonInfo from './PokemonInfo';
+
+// STYLES
+const Wrapper = styled.div`
+  max-width: 400px;
+  padding: 30px;
+  background-color: #db0c2c;
+`;
+
+const MainHeader = styled.h1`
+  font-size: 24px;
+  text-align: center;
+`;
+
+const ButtonsWrapper = styled.div`
+  display: flex;
+  justify-content: space-around;
+`;
+
+const Button = styled.button`
+  padding: 14px 20px;
+  border: none;
+  border-radius: 12px;
+  background-color: #009bff;
+  color: #ffffff;
+  font-weight: bold;
+`;
 
 // REDUCER
 const initialState = { current: 68 };
@@ -20,9 +47,6 @@ const reducer = (state, action) => {
       }
       return { current: state.current + 1 };
 
-    case 'set':
-      return { current: action.payload - 1 };
-
     default:
       return state;
   }
@@ -36,28 +60,26 @@ function App() {
   const [state, dispatch] = useReducer(reducer, initialState);
 
   // EFFECTS
-
   useEffect(() => {
-    // console.log(pokemonData[current]);
     document.title = `Pokedex - ${pokemonData[state.current].name}`;
-  }, [pokemonData, state.current]);
+  }, [pokemonData, state]);
 
   // RENDER
   return (
-    <div className="App">
-      <h1>POKEDEX</h1>
-      {/* <p>current pokemon number: {state.current}</p> */}
-      <button type="button" onClick={() => dispatch({ type: 'prev' })}>
-        PREV
-      </button>
-      <button type="button" onClick={() => dispatch({ type: 'next' })}>
-        NEXT
-      </button>
-      <br />
-      <input type="text" onInput={e => dispatch({ type: 'set', payload: e.target.value })} />
-      <br />
-      <Pokemon pokemon={pokemonData[state.current]} />
-    </div>
+    <Wrapper>
+      <MainHeader>POKEDEX</MainHeader>
+      <PokemonInfo pokemon={pokemonData[state.current]} />
+
+      <ButtonsWrapper>
+        <Button type="button" onClick={() => dispatch({ type: 'prev' })}>
+          PREV
+        </Button>
+
+        <Button type="button" onClick={() => dispatch({ type: 'next' })}>
+          NEXT
+        </Button>
+      </ButtonsWrapper>
+    </Wrapper>
   );
 }
 
