@@ -31,7 +31,6 @@ const Paragraph = styled.p`
 
 // RENDER
 const PokemonInfo = ({ pokemon }) => {
-  console.table(pokemon);
   const type = pokemon.types.map((item, idx) => {
     if (idx === pokemon.types.length - 1) {
       return <span key={idx}>{item}</span>;
