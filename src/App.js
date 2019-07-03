@@ -17,15 +17,15 @@ const MainHeader = styled.h1`
   text-align: center;
 `;
 
-const ButtonsWrapper = styled.div`
+const Controls = styled.div`
   display: flex;
   justify-content: space-around;
 `;
 
 const Button = styled.button`
-  padding: 14px 20px;
+  padding: 12px 20px;
   border: none;
-  border-radius: 12px;
+  border-radius: 8px;
   background-color: #009bff;
   color: #ffffff;
   font-weight: bold;
@@ -53,7 +53,7 @@ const reducer = (state, action) => {
       if (action.payload < 0 || action.payload > 151) {
         return state;
       }
-      return { current: action.payload };
+      return { current: +action.payload };
 
     default:
       return state;
@@ -84,7 +84,7 @@ function App() {
 
       <PokemonInfo pokemon={pokemonData[state.current]} />
 
-      <ButtonsWrapper>
+      <Controls>
         <Button type="button" onClick={() => dispatch({ type: 'prev' })}>
           PREV
         </Button>
@@ -94,7 +94,7 @@ function App() {
         <Button type="button" onClick={() => dispatch({ type: 'next' })}>
           NEXT
         </Button>
-      </ButtonsWrapper>
+      </Controls>
     </Wrapper>
   );
 }

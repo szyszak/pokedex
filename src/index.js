@@ -16,16 +16,24 @@ const GlobalStyles = createGlobalStyle`
     height: 100%;
   }
 
-  #root {
+  #root { 
     display: flex;
     justify-content: center;
     align-items: center;
+
+    @media (max-width: 420px) and (max-height: 650px) {
+      display: block;
+    }
   }
 
   body {
     background-color: #f5f5f5;
     color: #ffffff;
     font-family: 'Open Sans', sans-serif;
+
+    @media (max-width: 420px) {
+      background-color: #db0c2c;
+    }
   }
 
   h1, h2, h3, h4, h5, h6 {
@@ -36,7 +44,7 @@ const GlobalStyles = createGlobalStyle`
 ReactDOM.render(
   <>
     <GlobalStyles />
-    <App />
+    <App className="App" />
   </>,
   document.getElementById('root'),
 );
