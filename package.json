@@ -9,7 +9,7 @@
     "react-scripts": "3.0.1",
     "styled-components": "^4.3.1"
   },
-  "homepage": "https://github.com/szyszak/pokedex",
+  "homepage": "https://szyszak.github.io/pokedex/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
